@@ -1,5 +1,5 @@
-from utils import swap_elements
-from validator import is_sorted
+from utils.shared import swap_elements
+from utils.validator import is_sorted
 
 
 def bubble_sort(array):
