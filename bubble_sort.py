@@ -1,6 +1,7 @@
 from utils import swap_elements
 from validator import is_sorted
 
+
 def bubble_sort(array):
     while not is_sorted(array):
         for i in range(len(array) - 1):
